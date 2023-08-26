@@ -1,0 +1,83 @@
+.modal-overlay {
+	position: fixed;
+	inset: 0;
+	z-index: 1000;
+	overflow: hidden;
+	width: 100wv;
+	height: 100vh;
+	background-color: rgba(0, 0, 0, 0.5);
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.modal-overlay .modal-body {
+	background-color: #fff;
+	padding: 1.4rem;
+	width: 60%;
+	border-radius: 1.4rem;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.modal-overlay .modal-body header {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.modal-overlay .modal-body header h2 {
+	font-size: 2rem;
+	font-weight: 600;
+	color: #242424;
+}
+
+.modal-overlay .modal-body header button {
+	background-color: #ea4f4f;
+	border: none;
+	color: #fff;
+	font-size: 0.8rem;
+	cursor: pointer;
+}
+
+.modal-overlay .modal-body .input-container {
+	width: calc(100% - 1.6rem);
+}
+
+.modal-overlay .modal-body input {
+	padding: 0.8rem;
+	border: 2px solid #c6c5c5c5;
+	color: rgba(0, 0, 0, 0.9);
+	width: 100%;
+	line-height: 1.4rem;
+	border-radius: 0.8rem;
+	margin-bottom: 0.8rem;
+}
+
+.modal-overlay .modal-body input:focus {
+	outline: none;
+	border: 2px solid #646cff;
+}
+
+.modal-overlay .modal-body label {
+	color: #242424;
+	margin-bottom: 0.5rem;
+	font-size: 1.2rem;
+	font-weight: 600;
+}
+
+.modal-overlay .modal-body .btn-secundary {
+	position: initial;
+	width: 100%;
+	margin-top: 2rem;
+}
+
+.modal-overlay .modal-body .btn-secundary:hover {
+	transform: scale(1);
+	background-color: #646cff;
+}
