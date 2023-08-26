@@ -1,11 +1,15 @@
 # Cardápio Digital - Aplicação Frontend
 
-Este projeto é um simples protótipo de um Cardápio Digital desenvolvido durante um [tutorial no YouTube](https://www.youtube.com/@kipperdev) da @Fernanda-Kipper. A aplicação foi desenvolvida usando **React, Typescript e React Query**.
+Este projeto é um simples protótipo de um Cardápio Digital desenvolvido durante um [tutorial no YouTube](https://www.youtube.com/@kipperdev) da @Fernanda-Kipper.
 
 <h1 align="center">
     <img src="./public/home.png" width="300"/>
     <img src="./public/modal.png" width="300"/>
 </h1>
+
+## 👨‍💻 Tecnologias
+
+A aplicação foi desenvolvida usando **React, Typescript e React Query**.
 
 ## 💻 Requisitos
 
